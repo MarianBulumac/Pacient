@@ -1,6 +1,6 @@
 [
     {
-        "label": "Cine sunteti?[1 răspuns]",
+        "label": "Cine sunteti?",
         "type": "radio",
         "name": "cine_sunteti",
         "options": [
@@ -10,7 +10,7 @@
         ]
     },
     {
-        "label": "De care etapa de ingrijire este legat evenimentul advers?[1 răspuns]",
+        "label": "De care etapa de ingrijire este legat evenimentul advers?",
         "type": "radio",
         "name": "etapa_eveniment",
         "options": [
@@ -23,7 +23,7 @@
         ]
     },
     {
-        "label": "Care considerati ca este cauza evenimentul advers: :   [1 sau mai multe răspunsuri posibile]",
+        "label": "Care considerati ca este cauza evenimentul advers:",
         "type": "checkbox",
         "name": "eveniment_advers",
         "options": [
@@ -42,16 +42,16 @@
     },
     {
         "label": "Va rugam sa descrieti ce s-a intamplat:",
-        "type": "text area",
+        "type": "textarea",
         "rows": 4
     },
     {
         "label": "Va rugam sa ne spuneti pentru ce afectiune era tratat pacientul:",
-        "type": "text area",
+        "type": "textarea",
         "rows": 4
     },
     {
-        "label": "Considerați că pacientul a suferit o vătămare fizică sau psihologică?[1 răspuns]",
+        "label": "Considerați că pacientul a suferit o vătămare fizică sau psihologică?",
         "type": "radio",
         "name": "vatamare_pacient",
         "options": [
@@ -60,7 +60,7 @@
         ]
     },
     {
-        "label": "Cât de gravă a fost suferința pacientului determinată de evenimentul produs?[1 răspuns]",
+        "label": "Cât de gravă a fost suferința pacientului determinată de evenimentul produs?",
         "type": "radio",
         "name": "gravitate_suferinta",
         "options": [
@@ -72,12 +72,12 @@
         ]
     },
     {
-        "label": "Puteți detalia cum a fost afectat pacientul de această experiență?  (opțional, se poate renunța la aceasta întrebare)",
+        "label": "Puteți detalia cum a fost afectat pacientul de această experiență?",
         "type": "text area",
         "rows": 4
     },
     {
-        "label": "Unde s-a produs evenimentul advers:",
+        "label": "Unde s-a produs evenimentul advers?",
         "type": "checkbox",
         "name": "eveniment_advers",
         "options": [
@@ -88,7 +88,7 @@
             "Cabinet dentar",
             "Cabinet specialitate în ambulatoriu",
             "Laborator analize medicale",
-            "Centru imagistica / radiologie",
+            "Centru imagistica/radiologie",
             {
                 "label": "Spital/secție de boli psihice",
                 "type": "radio",
@@ -131,13 +131,13 @@
         "label":"În ce spital s-a produs acest eveniment advers?",
          "type": "radio",
         "options": [
-            	    "Lista spitale din țară – se selectează județ / localitatea aferenta acelui județ unde exista spitale/spitalul din orașul selectat; se poate alege soluția județ/spitalele din județ; se poate alege interfață pornind de la harta senzitivă cu județele",
+            	    "Lista spitale din țară – se selectează județ/localitatea aferenta acelui județ unde exista spitale/spitalul din orașul selectat; se poate alege soluția județ/spitalele din județ; se poate alege interfață pornind de la harta senzitivă cu județele",
             	    "Nu doresc să specific spitalul"  	    
          ]
 
     },
     {
-        "label": "Vă rugăm precizați ce tip de îngrijiri a primit pacientul în timpul internării?[1 sau mai multe răspunsuri]",
+        "label": "Vă rugăm precizați ce tip de îngrijiri a primit pacientul în timpul internării?",
         "type": "checkbox",
         "name": "tip_ingrijiri",
         "options": [
@@ -150,7 +150,7 @@
         ]
     },
     {
-        "label":"Când s-a produs evenimentul?[1 răspuns posibil]",
+        "label":"Când s-a produs evenimentul?",
          "type": "radio",
         "options": [
             "Data:______",
@@ -158,7 +158,7 @@
         ]
     },
     {
-        "label":"Când a observat pacientul că a avut loc evenimentul advers?[1 răspuns]",
+        "label":"Când a observat pacientul că a avut loc evenimentul advers",
         "type": "radio",
         "options": [
             "Imediat",
@@ -167,7 +167,7 @@
         ]
     },
     {
-        "label":"În ce interval orar s-a produs evenimentul?[1 răspuns]",
+        "label":"În ce interval orar s-a produs evenimentul?",
         "type": "radio",
         "options": [
             "Ziua (7,00 – 14,00)",
@@ -177,7 +177,7 @@
         ]
     },
     {
-        "label":"Ce categorii de personal au fost implicate în acest incident?[1 sau mai multe răspunsuri]",
+        "label":"Ce categorii de personal au fost implicate în acest incident?",
         "type": "checkbox",
         "options": [
             "Personal ambulanță",
@@ -206,7 +206,7 @@
         ]
     },
     {
-        "label":"Dacă ați fost anunțat, vi s-au precizat:   [1 sau mai multe răspunsuri]",
+        "label":"Dacă ați fost anunțat, vi s-au precizat":
         "type": "checkbox",
         "options": [
             "cauzele",
