@@ -1,3 +1,51 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+  margin: auto;
+  width: 60%;
+}
+
+.header{
+  display: flex;
+  margin-top: 30px;
+  
+
+}
+
+i{
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+
 h1{
-  font-size: 3em;
+  font-size: 5em;
+}
+
+h2{
+  float: right;
+  padding: 30px;
+  text-align: center;
+  font-weight: bold;
+  
+
+}
+
+p{
+  text-align: center;
+  padding: 20px;
+}
+
+.buton-container{
+  text-align: center;
+  position: relative;
+}
+.pad{
+  margin: 15px;
+}
+.footer{
+  margin: 40px auto 20px;
+
 }
