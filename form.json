@@ -217,4 +217,58 @@
            
         ]
     },
+    {
+        "label":"Sexul:",
+        "type":"radio",
+        "options":[
+            "Masculin",
+            "Feminin",
+            "Nu cunosc"
+         ]
+
+    },
+    {
+        "label":"In ce grupă de vârstă poate fi încadrat pacientul?",
+        "type":"radio",
+        "options":[
+           "Sub 1 an",
+           "1-4 ani",
+           "4-15 ani",
+           "16-25 ani",
+           "25-34 ani",
+           "35-44 ani",
+           "45-54 ani",
+           "55-64 ani",
+           "65-74 ani",
+           "75-84 ani",
+           "Peste 85 ani"
+        ]      
+    },
+    {
+        "label":"Ați anunțat acest eveniment la alte instituții?",
+        "type":"radio",
+        "options":[
+            "Nu",
+            "Da"
+        ]
+
+    },
+    {
+        "label":"Completati Institutia:",
+        "type":"text"
+    },
+    {
+        "label":"Doriți să ne mai spuneți ceva legat de acest eveniment advers?",
+        "type":"textarea"
+        
+    },
+    {
+        "label":"onsiderați că acest sistem de anunțare al evenimentelor adverse este util? (Vă rugăm apreciați de la 0 la 5, unde 0=nu este util; 5= foarte util)     [sau scală 1-5]",
+        "type":"radio",
+        "options":[
+            0,1,2,3,4,5
+        ]
+        
+    }
+
 ]
